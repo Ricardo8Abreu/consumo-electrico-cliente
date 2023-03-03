@@ -1,0 +1,36 @@
+.Modal{
+    border: hsla(0, 100%, 50%, 0) solid 1px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    /* transform: translateY(-100vh) scaleY(0); */
+    /* opacity: 0; */
+    z-index: 10;
+    transition: opacity 1s;
+}
+
+.Modal_Boton_Cerrar{
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    color: red;
+    border: solid 1px white;
+    border-radius: 100%;
+    background: #000;
+}
+
+.Modal_Boton_Cerrar:hover{
+    transform: scale(1.05);
+}
+
+.Modal_On{
+    transform: translateY(0) scaleY(1);
+    opacity: 1;
+  }
+/* 
+  .Modal_Off{
+      transform: translateY(-100vh);
+  } */

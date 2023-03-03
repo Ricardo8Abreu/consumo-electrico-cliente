@@ -1,0 +1,1 @@
+export * as ModalTypado from './ModalTypado'
