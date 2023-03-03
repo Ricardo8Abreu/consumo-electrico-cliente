@@ -1,14 +1,11 @@
 // app/page.js
 
 import FormCalcularConsumo from "../components/FormCalcularConsumo/FormCalcularConsumo"
-import Layout from "../components/Layout/layout"
+import Layout from "../components/Layout/Layout"
 import TablaConsumo from "../components/TablaConsumo/TablaConsumo"
-
-
 // This file maps to the index route (/)
-
 //  paginas principal 
-const page = () => {
+const index = () => {
   return (
     <Layout>
       <FormCalcularConsumo />
@@ -17,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default index
