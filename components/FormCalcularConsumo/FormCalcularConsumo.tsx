@@ -18,7 +18,7 @@ const FormCalcularConsumo = ({  }) => {
                 />
             </div>
 
-            <button type='submit' className=' h-max rounded-xl py-2 text-white px-2 bg-[#FFEA20] border border-[#a79815]'>
+            <button type='submit' className=' h-max rounded-xl py-2 text-black px-4 bg-[#FFEA20] border border-[#a79815]'>
                 Ver consumo
             </button>
         </form>
