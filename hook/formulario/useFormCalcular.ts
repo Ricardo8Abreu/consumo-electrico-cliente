@@ -19,7 +19,7 @@ const useFormCalcular = () => {
             contenedor: "items-center",
             label: "text-black",
             direccion: "col",
-            input: "w-100 text-center rounded bg-white"
+            input: "w-100 text-center rounded-lg bg-white"
         },
         inputProps: {
             ...register(id),
